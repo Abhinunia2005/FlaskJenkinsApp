@@ -3,14 +3,14 @@ pipeline {
 
     environment {
         AZURE_CREDENTIALS_ID = 'azure-service-principal'
-        RESOURCE_GROUP = 'rg-jenkins'
-        APP_SERVICE_NAME = 'your-pythonapp-name'
+        RESOURCE_GROUP = 'rg-jenkins8414'
+        APP_SERVICE_NAME = 'jenkinsproject8414'
     }
 
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-username/python-app.git'
+                git branch: 'main', url: 'https://github.com/Abhinunia2005/FlaskJenkinsApp.git'
             }
         }
 
