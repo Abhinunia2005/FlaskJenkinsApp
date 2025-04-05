@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        AZURE_CREDENTIALS_ID = 'azure-service-principal'
-        RESOURCE_GROUP = 'rg-jenkins8414'
-        APP_SERVICE_NAME = 'jenkinsproject8414'
+        AZURE_CREDENTIALS_ID = 'azure-service-principal-python'
+        RESOURCE_GROUP = 'rg-jenkins8414python'
+        APP_SERVICE_NAME = 'jenkinsproject8414python'
     }
 
     stages {
